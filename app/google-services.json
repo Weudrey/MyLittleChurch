@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "5396923570",
+    "firebase_url": "https://appdaigreja.firebaseio.com",
+    "project_id": "appdaigreja",
+    "storage_bucket": "appdaigreja.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5396923570:android:ad880c182ae040c8",
+        "android_client_info": {
+          "package_name": "com.wyz.appdaigreja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5396923570-oag5bttrd3dcqqlt7bo0dufimuv96bmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wyz.appdaigreja",
+            "certificate_hash": "0e027f0cfb83308ce74dc3ab3125f4bf10f37f07"
+          }
+        },
+        {
+          "client_id": "5396923570-449ipr1r169phi3kur04545tuk2hk41r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg-PoBAwDOXbbWSGaHIXElXPjS8dF5FwU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5396923570-449ipr1r169phi3kur04545tuk2hk41r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

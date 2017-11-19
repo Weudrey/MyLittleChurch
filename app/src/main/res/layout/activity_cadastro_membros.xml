@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wyz.appdaigreja.Activity.CadastroMembros">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="Nome"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNomeMembro"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:text="Cargo"
+        android:layout_below="@+id/edtNomeMembro"
+        android:layout_alignParentStart="true"
+         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCargoMembro"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+         />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:text="Data Nascimento"
+        android:layout_below="@+id/edtCargoMembro"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:id="@+id/edtDataNascimentoMembro"/>
+
+
+
+    <RadioGroup
+        android:id="@+id/rgSexo"
+        android:layout_below="@+id/edtDataNascimentoMembro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbFemininoMembro"
+        android:checked="true"
+        android:text="Feminino"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbMasculinoMembro"
+        android:checked="true"
+        android:text="Masculino"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnGravarMembro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rgSexo"
+        android:layout_marginStart="60dp"
+        android:text="Gravar Membro" />
+
+    <Button
+        android:id="@+id/btnVoltarDeCadMembro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_below="@+id/rgSexo"
+        android:layout_marginEnd="29dp"
+        android:text="Voltar" />
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wyz.appdaigreja.Activity.PrincipalActivity">
+
+    <TextView
+        android:id="@+id/tvNomeUsuarioLogado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddLocal"
+        android:text="Add Local"
+        android:layout_below="@+id/tvNomeUsuarioLogado"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnAddMembro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Membro"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/btnAddLocal"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnVerMembros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Lista de Membros"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/btnAddMembro"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnVerLocais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Lista de Locais"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/btnVerMembros"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/toJson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnVerLocais"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="99dp"
+        android:text="Json" />
+
+</RelativeLayout>
