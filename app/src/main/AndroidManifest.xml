@@ -36,7 +36,8 @@
             android:label="@string/app_name" />
         <activity android:name=".Activity.MembrosActivity" />
         <activity android:name=".Activity.LocaisActivity" />
-        <activity android:name=".Activity.JsonActivity"></activity>
+        <activity android:name=".Activity.JsonActivity" />
+        <activity android:name=".Activity.PostJsonActivity"></activity>
     </application>
 
 </manifest>
